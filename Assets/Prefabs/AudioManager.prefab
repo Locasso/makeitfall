@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &591461110297045921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 591461110297045923}
+  - component: {fileID: 591461110297045922}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &591461110297045923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591461110297045921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.2232842, y: -41.501827, z: 151.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &591461110297045922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591461110297045921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eba342364742ee4d914496c4d809521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: bgm_map
+    clip: {fileID: 8300000, guid: 2637091ed1f3ce447ab682ef9cc7408a, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    sfx: 0
+    bgm: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: click_btn
+    clip: {fileID: 8300000, guid: 04b0de2ec8fba294c860a9cca425691a, type: 3}
+    volume: 0.8
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.59
+    loop: 0
+    sfx: 1
+    bgm: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: nature_bgm
+    clip: {fileID: 8300000, guid: ce7d43a5ca66e414f938078f27a0dfd4, type: 3}
+    volume: 0.8
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    sfx: 0
+    bgm: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: playtime_bgm
+    clip: {fileID: 8300000, guid: 9e01597ad90599d45b0d33811eb2a161, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    sfx: 0
+    bgm: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: activity_change
+    clip: {fileID: 8300000, guid: 412f995764bd4194c8fe9928519957b4, type: 3}
+    volume: 0.51
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.48
+    loop: 0
+    sfx: 1
+    bgm: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: slot_click
+    clip: {fileID: 8300000, guid: 02ba21da80c664943ae7bf3b88a815e5, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.5
+    loop: 0
+    sfx: 1
+    bgm: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: right_answer
+    clip: {fileID: 8300000, guid: caff26aa19bffe04ab1788f4e950e65a, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    sfx: 1
+    bgm: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: wrong_answer
+    clip: {fileID: 8300000, guid: 70130e7782306a849a6b634666e3b124, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    sfx: 1
+    bgm: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: balloon_pop
+    clip: {fileID: 8300000, guid: 5c9611c8561420c45b8a1a81fae7236b, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.11
+    loop: 0
+    sfx: 1
+    bgm: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: wind_bgm
+    clip: {fileID: 8300000, guid: 221c94cea432ec8459dd3ba1292d67e8, type: 3}
+    volume: 0.608
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    sfx: 0
+    bgm: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: unlock_slot
+    clip: {fileID: 8300000, guid: 707bdede8f4c40748a0e91a125a0cbc4, type: 3}
+    volume: 0.608
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    sfx: 1
+    bgm: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
